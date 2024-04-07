@@ -12,7 +12,7 @@ function id = controller(maps,position,target)
     %               The predicted movement of a particle after returning id
     %               is pnew = p + [maps(id).deltaX(p) maps(id).deltaY(p)].
     
-    % TODO: Implement your controller here.
+  
     % Initialize variables to store the minimum distance and the corresponding frequency ID
     persistent prev_x prev_y
     minDistance = inf;
@@ -54,6 +54,6 @@ function id = controller(maps,position,target)
     prev_x = x;
 
 
-%     id = randi([1,length(maps)]);     
+  
 end
         
